@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.card {
+  margin-top: 50px;
+  width: 75%;
+  border: solid;
+  color: black;
+  background-color: var(--white);
+  padding: 20px;
+  margin: 10px;
+}
+
+.capsule_caption {
+  text-align: center;
+  font-weight: bold;
+}
+
+.capsule {
+  border-radius: 10%/50%;
+  width: 100px;
+  background-color: var(--pastel-blue);
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+.head {
+  width: 100%;
+  /* margin-top: 30px; */
+  /* margin-bottom: 20px; */
+}
+.seller_name{
+   margin-top: 30px;
+   font-weight: bold;
+   color:#474040 ;
+}
+.head1 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.up {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.close-btn {
+  position: absolute;
+  right: 22%; 
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.pposition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.pimg {
+  width: 40%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .mid_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      width: 90%;
+  }
+
+  .card {
+
+      width: 90%;
+      border: solid;
+      color: black;
+      background-color: var(--white);
+
+      padding: 20px;
+  }
+}
